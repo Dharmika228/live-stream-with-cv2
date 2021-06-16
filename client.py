@@ -5,7 +5,7 @@ import socket,cv2, pickle,struct
 
 
 csocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-host_ip = '192.168.56.1'
+host_ip = # give your IP address
 port = 9999
 csocket.connect((host_ip,port)) 
 data = b"" 
